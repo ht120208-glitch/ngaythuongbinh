@@ -1,0 +1,228 @@
+body {
+        margin-right:0 ;
+        margin-left:0 ;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Impact,Georgia;
+        background-color: #f4f4f4; 
+        color: #333;
+    }
+    header {
+    background-color: #da251d;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+    .logo {
+        height: 50px; 
+        width: auto;
+        padding: 5px 0;
+        margin-right: 40px; 
+    }
+
+
+    .menu {
+        display: flex; 
+        align-items: center; 
+        padding: 0 20px; 
+    }
+
+
+    .menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center; 
+    }   
+    .menu li { 
+        margin: 0 15px; 
+    }
+    .menu a {
+        display: inline;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: #ffff00;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+    .menu a:hover {
+        background-color: rgba(255,255,255,0.1);
+        color: #fff;
+    }
+        main {
+            padding-top: 70px; 
+        }
+        .anhcan {
+        width: 70%;
+        max-width: 800px;
+        height: auto; 
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        }
+        .video {
+            width: 1000px;
+            max-width: 800px;
+            height: 800px; 
+            max-height: 600px;
+            display: block; 
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #da251d;
+            text-align: center;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        h2{
+            font-size: 1.5rem;
+            color: #da251d;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .h2-right{
+            font-size: 1.5rem;
+            color: #da251d;
+            text-align: right;
+            margin-bottom: 40px;  
+        }
+        .h2-left{
+            font-size: 1.5rem;
+            color: #da251d;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        #trang-chu {
+            background: linear-gradient(rgba(218, 37, 29, 0.9), rgba(218, 37, 29, 0.8)),url('back.jpeg') no-repeat center center/cover;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #trang-chu h1 {
+            font-size: 3.5rem;
+            color: #ffff00;
+            text-shadow: 2px 2px 4px #000;
+            margin: 0;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        .cssnd { 
+            margin: 60px auto 20px auto; 
+            padding: 20px;
+        }
+
+    .tvhead {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .tvhead1 {
+        color: #da251d;
+        font-size: 2.8em;
+        padding-bottom: 10px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .khunganh {
+        text-align: center;
+        color: #004d40; 
+        font-size: 2em;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .media-item {
+        background-color: white;
+        border-radius: 8px; 
+    }
+
+    .media-item img:hover {
+        transform: scale(1.05); 
+    }
+
+    .im1{
+        text-align: center;
+        padding: 10px;
+        font-style: italic;
+        font-size: 0.9em;
+        color: #363636;
+    }
+    .chuanh{
+        text-align: center; 
+        font-size: 12px; 
+        margin-left: 30px ; 
+        margin-right: 30px;
+    }
+    .khung{
+        border: 2px solid #da251d; 
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+    .donggop {
+        font-size: 1.4em;
+        font-weight: bold;
+        color: #004d40;
+        padding: 0 10px;
+    }
+    .khungcandg {
+        margin-bottom: 15px;
+    }
+    .khungcandg label {
+        display: block; 
+        margin-bottom: 5px;
+        font-weight: 600;
+        color: #333;
+    }
+    .khungcandg textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 1em;
+    }   
+    .nutgui {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        background-color: #da251d; 
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1.1em;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+    .nutgui:hover {
+        background-color: #b31e17; 
+}
+    .ykien{
+        text-align: center;
+        font-size: 20px;
+        color: #4F4F4F;
+
+    }
