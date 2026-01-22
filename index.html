@@ -3,54 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kỷ niệm Quốc Khánh Việt Nam 2/9</title>
-    <link rel="stylesheet" type="text/css" href="Style.css">
-       
+    <title>Ngày Thương Binh Liệt Sĩ 27/7</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f4f6f9;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        #dieuhuong {
+            width: 100%;
+            height: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #2d89ef;
+            border-bottom: 3px solid #1b5fbf;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            z-index: 10;
+        }
+        #dieuhuong img {
+            margin-right: 15px;
+            border-radius: 50%;
+        }
+        #dieuhuong ol {
+            margin-left: auto;
+            margin-right: 20px;
+        }
+        #dieuhuong li {
+            display: inline-block;
+            margin: 0 12px;
+        }
+        #dieuhuong a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+        #dieuhuong a:hover {
+            color: #ffeb3b;
+        }
+
+        #tieude {
+            margin-top: 60px;
+            background: white;
+            padding: 20px 0;
+            border-bottom: 3px solid #2d89ef;
+            text-align: center;
+            position: sticky;
+            top: 60px;
+            z-index: 5;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        #body {
+            padding: 20px;
+            text-align: center;
+        }
+        #body p {
+            font-size: 20px;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+        #body img {
+            width: 90%;
+            border-radius: 10px;
+            margin-top: 20px;
+            border: 5px solid #ddd;
+        }
+
+        #thong_tin {
+            background: #2d89ef;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 5px solid #1b5fbf;
+        }
+        #thong_tin ol {
+            list-style: none;
+            padding: 0;
+        }
+        #thong_tin li {
+            margin: 5px;
+            font-size: 16px;
+        }
         
+    </style>
 </head>
+
 <body>
-<header>
-    <div class="menu">
-        <a href="Quockhanh.html" class="logo-link">
-            <img src="logo.jpg" alt="Quốc Kỳ Việt Nam" class="logo">
-        </a>
-        <ul>
-            <li><a href="Quockhanh.html">Trang Chủ</a></li>
-            <li><a href="Lichsu.html">Lịch Sử</a></li>
-            <li><a href="Thuvien.html">Thư Viện</a></li>
-            <li><a href="Tuyenngondoclap.html">Tuyên Ngôn Độc Lập</a></li>
-            <li><a href="Sukien.html">Sự Kiện</a></li>
-            <li><a href="Lienhe.html">Liên Hệ</a></li>
-        </ul>
+
+    <div id="dieuhuong">
+        <img src="logo_cbl.jpg" alt="logo" width="45px">
+        <img src="logo_tt11.jpg" alt="logo2" width="45px">
+
+        <ol>
+            <li><a href="web.html" style = "color: #ffeb3b;">TRANG CHỦ</a></li>
+            <li><a href="boicanhradoi.html">BỐI CẢNH RA ĐỜI</a></li>
+            <li><a href="hoatdong.html">HOẠT ĐỘNG</a></li>
+            <li><a href="trian.html">TRI ÂN</a></li>
+            <li><a href="tamguong.html">TẤM GƯƠNG</a></li>
+            <li><a href="lienhe.html">LIÊN HỆ</a></li>
+        </ol>
     </div>
-</header>
 
-    <main>
+    <div id="tieude">
+        <h1><a href = "https://vi.wikipedia.org/wiki/Ng%C3%A0y_th%C6%B0%C6%A1ng_binh_li%E1%BB%87t_s%C4%A9" style = "text-decoration: none; color: black;" target="blank">NGÀY THƯƠNG BINH LIỆT SĨ 27/7</a></h1>
+    </div>
 
-        <div id="trang-chu">
-            <div class="image-center-container">
-                <img src="img2.jpeg" alt="Ảnh kỷ niệm" class="anhcan">
-            </div>
-            <h1>Chào Mừng Quốc Khánh 2/9</h1>
-            <p style="font-size: 2.3rem; font-weight: bold; color: white; ">Kỷ niệm ngày Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập</p>
-            <p style="font-size: 1.3rem; font-weight: bold; color: #DCCB4A;">
-                    80 năm về trước, vào mùa Thu lịch sử ấy, tại Quảng trường Ba Đình, Chủ tịch Hồ Chí Minh đã đọc bản Tuyên ngôn Độc lập, khai sinh ra Nước Việt Nam Dân chủ Cộng hòa, mở ra một kỷ nguyên mới cho dân tộc. Trang web này là nơi lưu giữ những khoảnh khắc vàng son, những câu chuyện lịch sử hào hùng và ý nghĩa thiêng liêng của ngày Độc lập.
-                </p>
-        </div>
+    <div id="body">
+        <b> <p>
+            Ngày thương binh - liệt sĩ (ngày 27 tháng 7) là ngày lễ kỉ niệm được tổ chức hàng năm nhằm tưởng niệm những 
+            thương binh, liệt sĩ của nước Cộng hòa Xã hội chủ nghĩa Việt Nam. Đây là biểu tượng của truyền thống 
+            uống nước nhớ nguồn, đền ơn đáp nghĩa của dân tộc Việt Nam.
+        </p> </b>
 
+        <img src="menuchinh.jpg" alt="Hình trang chủ">
+    </div>
 
-
-    </main>
-
-    <footer>
-        <p>&copy; 2025 - Bài tập Tin học Lớp 12.</p>
-        <p>Thiết kế bởi: Nhóm ATHH - Lớp 12TT11</p>
-        <p>Trần Minh Hiếu</p>
-        <p>Nguyễn Thị Gia Hân<p>
-        <p>Nguyễn Thị Mai Thư<p>
-        <p>Nguyễn Thị Phương Anh<p>	
-        <a href="https://www.canva.com/design/DAG5VGdwkGE/x6V6oy4zKBHtDmQLJR1Lxg/edit?utm_content=DAG5VGdwkGE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" style="color: darkcyan; text-decoration: none;">Bài Thuyết Trình</a>
-    </footer>
+    <div id="thong_tin">
+        <ol style="text-align: center;">
+            <li><b>Bài thực hành Tin 12TT11</b></li>
+            <li>Trần Thành Long</li>
+            <li>Lê Quốc Bửu</li>
+            <li>Bế Đăng Khôi</li>
+            <li>Nguyễn Đức Khánh</li>
+            <li>Email: <i>dangkhoibe0912@gmail.com</i></li>
+            <li><b><a href="https://www.canva.com/design/DAG5hM6VojA/vtgnfV8djG9P6miTfU520g/edit" style = "text-decoration: none; color: #f4f6f9;" target="blank"> BÀI THUYẾT TRÌNH CANVA </a></b></li>
+        </ol>
+    </div>
 
 </body>
 </html>
