@@ -16,7 +16,6 @@
 
         #dieuhuong {
             width: 100%;
-            height: 60px;
             position: fixed;
             top: 0;
             left: 0;
@@ -26,7 +25,6 @@
             align-items: center;
             padding-left: 20px;
             z-index: 10; 
-            flex-wrap: wrap;
         }
         #dieuhuong img {
             margin-right: 15px;
@@ -98,50 +96,6 @@
             margin: 5px;
             font-size: 16px;
         }
-		/* --- BỔ SUNG GIAO DIỆN ĐIỆN THOẠI (MOBILE) --- */
-        @media screen and (max-width: 768px) {
-            
-            /* 1. Chỉnh lại thanh điều hướng */
-            #dieuhuong {
-                height: auto; /* Cho phép chiều cao tự giãn theo nội dung */
-                position: relative; /* Bỏ cố định để không che nội dung khi menu dài */
-                flex-direction: column; /* Xếp logo và menu theo chiều dọc */
-                padding: 10px 0; /* Thêm khoảng cách trên dưới */
-            }
-
-            /* 2. Căn giữa logo */
-            #dieuhuong img {
-                margin: 5px; /* Căn đều khoảng cách logo */
-            }
-
-            /* 3. Chỉnh danh sách menu */
-            #dieuhuong ol {
-                margin: 10px 0 0 0; /* Reset lề */
-                width: 100%; /* Chiếm hết chiều ngang */
-                text-align: center; /* Căn giữa chữ */
-                padding: 0;
-            }
-
-            /* 4. Tách các mục menu ra cho dễ bấm */
-            #dieuhuong li {
-                display: block; /* Mỗi mục 1 dòng */
-                margin: 10px 0; /* Khoảng cách giữa các dòng */
-                border-bottom: 1px solid rgba(255,255,255,0.2); /* Kẻ dòng mờ ngăn cách (nếu thích) */
-                padding-bottom: 5px;
-            }
-
-            /* 5. Chỉnh lại phần tiêu đề bên dưới */
-            #tieude {
-                margin-top: 0; /* Vì menu ở trên không còn fixed nên bỏ margin này */
-                position: relative; /* Bỏ dính hoặc giữ nguyên tùy ý */
-                top: 0;
-            }
-            
-            h1 {
-                font-size: 24px; /* Giảm cỡ chữ tiêu đề 1 chút cho gọn */
-                padding: 0 10px;
-            }
-        }
         
     </style>
 </head>
@@ -190,4 +144,3 @@
 
 </body>
 </html>
-
